@@ -5,4 +5,5 @@ sudo curl -L https://github.com/docker/compose/releases/download/$latest_version
 echo "granting execute permission to docker-compose..." && \
 sudo chmod +x /usr/local/bin/docker-compose && \
 echo "docker-compose installed successfully." && \
+echo "===========================================" && \
 docker-compose --version

@@ -10,4 +10,6 @@ echo "Adding user $current_user to Docker group to run docker cli without sudo..
 sudo usermod -aG docker  && \
 echo "Applying changes..." && \
 newgrp docker && \
-echo "Docker CE installed successfully."
+echo "Docker CE installed successfully." && \
+echo "===========================================" && \
+docker version
